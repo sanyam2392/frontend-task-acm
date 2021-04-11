@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding:0;
+}
+.navbar{
+  width:80%;
+  height:100px;
+  margin-left:10%;
+  z-index: 1;
+  position: relative;
+  top:30px;
+}
+  
+.background{
+    position:relative;
+    top:-100px;
+    height:100%;
+    width:800px;;
+}
+.nav-item{
+    padding-left: 40px;
+}
+
+h3{
+    color:rgb(1, 102, 185);
+    position:relative;
+    top:-690px;
+    left:195px;
+    z-index: 2;
+    font-weight: bold;
+    font-size: 20px;
+}
+.navbar-nav{
+    margin-left: 220px;
+}
+
+    
+
+
+
+
+
+
+.review{
+    background: rgb(243, 243, 243);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    width:80%;
+    margin-left: 10%;
+    position:relative;
+    top:-280px;
+  }
+  
+  
+  
+  
+  .review .box-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12%;
+    font-weight: lighter;
+   
+  }
+  
+  .review .box-container .box{
+    width:45rem;
+    height: 28rem;
+    margin:4rem 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    box-shadow: 0 .3rem .5rem rgb(190, 190, 190);
+    background:#fff;
+    position:relative;
+    top:-200px;
+  }
+  
+  .review .box-container .box .image{
+    margin-top: -3rem;
+  }
+  
+  .review .box-container .box .image img{
+    height:6rem;
+    width:6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: .2rem solid #fff;
+  }
+  
+  .review .box-container .box .content h4{
+    font-size: 1rem;
+    color:rgb(1, 102, 185);
+  }
+  
+  .review .box-container .box .content p{
+    font-size: 1.4rem;
+    color:#333;
+    padding:.5rem 1.5rem;
+    padding-left: 80px;
+   
+    
+  }
+  
+  .review .box-container .box .content .stars i{
+    color:gold;
+    font-size: 1.5rem;
+   padding-left:1rem;
+   padding-top:1rem;
+  }
+
+  .like__btn {
+
+    background: green;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    color: #e8efff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width:60px;
+    height: 60px;
+  }
+  .review .box-container .box .content .sam{
+      padding-top: 0px;
+      margin-top: 20px;
+      display:flex;
+      margin-left: 25%;
+      border:grey solid 1px;
+      border-left: none;
+      padding-left: 0;
+      width:400px;
+  }
+  .box-container .box .comment form input[type="submit"]{
+    color:#0098a1;
+    border:.2rem solid gold;
+    cursor: pointer;
+    transition: .2s;
+    width:20rem;
+    background-color: gold;
+    height:60px;
+  }
+  
+  .box-container .box .comment form input[type="submit"]:hover{
+
+    color:white;
+    background:hsl(44, 100%, 46%);
+  }
+   body{
+       overflow-x: hidden;
+   }
+   
